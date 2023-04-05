@@ -2,8 +2,11 @@
 // import ObjetosLiterales from './typescript/objetosLiterales';
 // import Funciones from './typescript/funciones';
 // import Counter from './components/Counter';
+// import Login from "./components/Login"
+// import Users from "./components/Users"
 
-import Login from "./components/Login"
+import Forms from "./components/Forms"
+
 
 // import CounterHook from './components/CounterHook';
 const App = () => {
@@ -15,7 +18,9 @@ const App = () => {
       {/* < Funciones /> */}
       {/* < Counter /> */}
       {/* < CounterHook /> */}
-      < Login />
+      {/* < Login /> */}
+      {/* < Users /> */}
+      < Forms />
     </div>
   )
 }
